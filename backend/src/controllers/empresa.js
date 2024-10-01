@@ -23,7 +23,7 @@ controller.retrieveAll = async function(req, res) {
           })
 
         res.send(result)
-        }  
+      }  
     catch (error) {
         console.error(error)
         res.status(500).send(error)
@@ -37,6 +37,7 @@ controller.retrieveOne = async function(req, res) {
             where: { id: req.params.id },
             include
           })
+          
           if(result) res.send(result)
             else res.status(404).end()
           }

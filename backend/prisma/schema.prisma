@@ -1,25 +1,28 @@
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL")
+  url      = env("DATABASE_URLX")
 }
 
 model Empresa {
-  id   String @id @default(auto())  @map("_id") @db.ObjectId
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
   nome String
+  oportunidades Oportunidade[] // Relacionamento com Oportunidade
 }
 
 model Oportunidade {
-  id          String @id @default(auto())  @map("_id") @db.ObjectId
-  titulo      String
-  localizacao String
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  titulo        String
+  localizacao   String
+  empresa_id    String   @db.ObjectId // Chave estrangeira para Empresa
+  empresa       Empresa  @relation(fields: [empresa_id], references: [id])
 }
 
-
-
-
-
+model Usuario {
+  id            String  @id @default(auto()) @map("_id") @db.ObjectId
+  email         String  @unique 
+  senha         String  
+}

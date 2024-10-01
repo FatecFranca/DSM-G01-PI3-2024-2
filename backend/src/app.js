@@ -17,6 +17,12 @@ app.use('/users', usersRouter)
 
 /*************** ROTAS *******************/
 import empresaRouter from './routes/empresa.js'
-app.use('/empresas', empresaRouter)
+app.use('/empresa', empresaRouter)
+
+import oportunidadeRouter from './routes/oportunidade.js'
+app.use('/oportunidade', oportunidadeRouter)
+
+import usuarioRouter from './routes/usuario.js'
+app.use('/usuario', usuarioRouter)
 
 export default app

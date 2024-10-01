@@ -5,7 +5,7 @@ const controller = {}
 
 controller.create = async function(req, res) {
     try {
-        await prisma.oportunidade.create({ data: req.body})
+        await prisma.usuario.create({ data: req.body})
         res.status(201).end()
     }
     catch (error) {
@@ -17,8 +17,8 @@ controller.create = async function(req, res) {
 controller.retrieveAll = async function(req, res) {
     try {
         const include = includeRelations(req.query)
-        const result = await prisma.oportunidade.findMany({
-            orderBy: [ { titulo: 'asc' } ],
+        const result = await prisma.usuario.findMany({
+            orderBy: [ { email: 'asc' } ],
             include
           })
 
@@ -33,7 +33,7 @@ controller.retrieveAll = async function(req, res) {
 controller.retrieveOne = async function(req, res) {
     try {
         const include = includeRelations(req.query) 
-        const result = await prisma.oportunidade.findUnique({
+        const result = await prisma.usuario.findUnique({
             where: { id: req.params.id },
             include
           })
@@ -49,7 +49,7 @@ controller.retrieveOne = async function(req, res) {
 
 controller.update = async function(req, res) {
     try {
-        const result = await prisma.oportunidade.update({
+        const result = await prisma.usuario.update({
             where: { id: req.params.id },
             data: req.body
           })
@@ -64,7 +64,7 @@ controller.update = async function(req, res) {
 
 controller.delete = async function(req, res) {
     try {
-      await prisma.oportunidade.delete({
+      await prisma.usuario.delete({
         where: { id: req.params.id }
       })
       res.status(204).end()
