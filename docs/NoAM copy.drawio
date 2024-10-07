@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="5R6MqFhDyNoR8v8Er-Rv" name="Page-1">
-        <mxGraphModel dx="688" dy="563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="983" dy="407" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ffffff;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ffffff;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="207" y="24" width="362" height="430" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Empresa" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
@@ -45,6 +45,18 @@
                 </mxCell>
                 <mxCell id="19" value="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="370" y="158" width="80" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Usuario" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="76" width="141" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="_id: ObjectId" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;fontStyle=1" vertex="1" parent="21">
+                    <mxGeometry y="26" width="141" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="email: String" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;fontStyle=1" vertex="1" parent="21">
+                    <mxGeometry y="52" width="141" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="senha: String" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;fontStyle=1" vertex="1" parent="21">
+                    <mxGeometry y="78" width="141" height="26" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
