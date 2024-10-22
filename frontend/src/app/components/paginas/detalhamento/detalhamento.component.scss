@@ -1,0 +1,75 @@
+main {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    background-color: rgb(235, 229, 229);
+    height: 100%;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 2%;
+
+    .titulo {
+      border-bottom: 1px solid black;
+      height: 30%;
+      position: relative;
+      width: 100%;
+      padding-top: 1px;
+
+      h1 {
+        margin-top: 3%;
+      }
+    }
+
+    .desc {
+      display: flex;
+
+      .caixa1 {
+        width: 85%;
+
+        h1 {
+          margin-top: 2%;
+        }
+        h4{
+          font-weight: bold;
+        }
+        h5{
+          margin-left: 3%;
+        }
+
+        h6 {
+          margin-top: 2%;
+          margin-bottom: 2%;
+          font-weight: bold;
+        }
+
+
+      }
+
+      .caixa2 {
+        button {
+          background-color: blue;
+          border: none;
+          color: white;
+          padding: 15px 35px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 12px;
+          transition-duration: 0.4s;
+        }
+
+        button:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid blue;
+        }
+
+      }
+    }
+  }
+}

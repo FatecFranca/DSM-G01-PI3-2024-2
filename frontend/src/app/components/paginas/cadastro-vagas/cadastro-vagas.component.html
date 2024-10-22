@@ -1,0 +1,40 @@
+<body>
+    <div class="container">
+        <h1>Cadastro de Vagas</h1>
+        <form [formGroup]="vagaForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label for="titulo">Título da Vaga</label>
+                <input type="text" id="titulo" formControlName="titulo" required name="titulo" placeholder="Ex. Front-end Jr">
+            </div>
+            <div class="form-group">
+                <label for="descricao">Tipo de Vaga</label>
+                <select id="descricao" formControlName="descricao" required name="descricao">
+                    <option value="backend">Back-end</option>
+                    <option value="frontend">Front-end</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="localizacao">Localização</label>
+                <input type="text" id="localizacao" formControlName="localizacao" required name="localizacao" placeholder="São Paulo-SP">
+            </div>
+            <div class="form-group">
+                <label for="link">Link da vaga</label>
+                <input type="text" id="link" formControlName="link" required name="link" placeholder="https://www.linkedin.com">
+            </div>
+            <div class="form-group">
+                <label for="data_publicacao">Data de Publicação</label>
+                <input type="date" id="data-publicacao" formControlName="data_publicacao" required name="data_publicacao">
+            </div>
+            <div class="form-group">
+                <label for="requisitos">Requisitos</label>
+                <textarea id="requisitos" formControlName="requisitos" rows="2" required name="requisitos"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="salario">Salário</label>
+                <input type="number" id="salario" formControlName="salario" required name="salario" placeholder="R$1500 - 4000">
+            </div>
+            <button type="submit">Cadastrar Vaga</button>
+        </form>
+    </div>
+</body>
