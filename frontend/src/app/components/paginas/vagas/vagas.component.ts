@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class VagasComponent {
   readonly computerImg: string = "../../../assets/img/laptop.png";
+  readonly cyber: string = "../../../../assets/img/quadriculado.png";
 
 }

@@ -9,5 +9,6 @@ export class SobreComponent {
 
   readonly homemImg : string = "../../../assets/img/homem.png"
   readonly logoImg: string = "../../assets/img/logo.png";
+  readonly teto: string = "../../../../assets/img/teto.png"
 
 }

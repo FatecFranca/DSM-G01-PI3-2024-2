@@ -9,7 +9,7 @@ import { BuscaVagasService } from '../../../services/vagas/busca-vagas.service';
 })
 export class PesquisaVagaComponent implements OnInit {
 
-  readonly meninoImg: string = "../../../assets/img/binoculo2.png";
+  readonly meninoImg: string = "../../../assets/img/Croods.png";
   readonly lupaImg: string = "../../../assets/img/lupa.png";
 
   vagas: any[] = [];

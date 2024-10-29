@@ -1,27 +1,39 @@
-<main [@fadeInOut]>
-  <div class="titulo">
-    <h1>Sobre a TecJobs</h1>
-    <img [src]="homemImg">
-    <div class="bola"></div>
+<main>
+  <app-navbar></app-navbar>
+
+  <div>
+    <img class="teto" [src]="teto">
   </div>
 
-  <div class="info">
-    <h1>Sem complicações</h1>
-    <p>Os usuários podem pesquisar empregos especificamente nas áreas de back-end, front-end e suporte,
-      refinando sua busca por localização, tipo de contrato e outros critérios específicos para encontrar as
-      oportunidades ideais para eles.</p>
+    <div class="container">
+      <h1>Sobre Nós</h1>
 
-    <h1>Missão</h1>
-    <p>Nosso objetivo é simplificar e enriquecer o processo de recrutamento, conectando os profissionais certos com as
-      oportunidades certas e promovendo o crescimento pessoal e profissional de individuos e empresas.</p>
+      <div>
+        <h2>Sem complicações</h2>
+        <span>
+          Os usuários podem pesquisar empregos por localização, setor, cargo, tipo de contrato e outros critérios
+          específicos para encontrar as oportunidades ideais para eles.
+        </span>
+      </div>
 
-    <h1>Visão</h1>
-    <p>Queremos ser reconhecidos como o destino número um para os profissionais em busca de empregos e empregadores em
-      busca de talentos excepcionais, impulsionando o sucesso mútuo e o progresso da carreira.</p>
-  </div>
+      <div>
+        <h2>Missão</h2>
+        <span>
+          Nosso objetivo é simplificar e enriquecer o processo de recrutamento, unificando a busca por oportunidades em um só lugar. Em nosso site, os usuários podem explorar uma 
+          ampla variedade de vagas sem a necessidade de cadastro. Ao encontrar uma oportunidade de interesse, serão direcionados diretamente para o site onde a vaga está publicada, tornando a 
+          experiência mais ágil e eficiente.
+        </span>
+      </div>
+
+      <div>
+        <h2>Visão</h2>
+        <span>
+          Queremos ser reconhecidos como o destino número um para profissionais em busca de emprego e empregadores em
+          busca de talentos excepcionais, impulsionando o sucesso mútuo e o progresso da carreira
+        </span>
+      </div>
+
+    </div>
+
+
 </main>
-
-<footer>
-  <span>Tecjobs</span>
-  <img [src]="logoImg">
-</footer>

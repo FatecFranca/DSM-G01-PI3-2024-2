@@ -11,6 +11,8 @@ import { LoginService } from '../../../services/login/login.service';
 
 export class LoginComponent {
 
+  readonly cyber: string = "../../../../assets/img/quadriculado.png";
+
   user: { username: string, password: string } = { username: '', password: '' };
 
   constructor(private loginService: LoginService, private router : Router){}
