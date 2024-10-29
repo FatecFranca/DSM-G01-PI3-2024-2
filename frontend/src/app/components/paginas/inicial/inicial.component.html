@@ -1,13 +1,15 @@
 <main>
-  
+  <app-navbar></app-navbar>
+
+  <div class="container">
     <div class="info">
-      <h1>TECJOBS</h1>
-      <h2>Junte-se à nossa comunidade de Empregos</h2>
+      <img [src]="tecjobs">
       <button type="button" class="btn" routerLink="/vagas">ACESSE AGORA</button>
+      <img class="chao" [src]="chao">
     </div>
 
     <div>
-      <img class="img" [src]="humana" >
+      <img class="img" [src]="humana">
     </div>
-
+  </div>
 </main>

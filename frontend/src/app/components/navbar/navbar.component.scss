@@ -7,6 +7,14 @@
   background-color: #D9D9D9;
   border-bottom: 5px solid #01606D;
   height: 60px;
+
+  span{
+    font-size: 40px;
+    font-family: Protest Strike;
+    background: linear-gradient(180deg, #929499 0%, #000000 100%);
+    -webkit-background-clip: text;
+    color: transparent; // Torna o texto transparente para mostrar o fundo
+  }
 }
 
 

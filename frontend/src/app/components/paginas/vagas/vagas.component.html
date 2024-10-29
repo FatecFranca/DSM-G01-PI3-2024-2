@@ -2,21 +2,33 @@
   <div class="fundo">
     <div class="titulo">
       <h1>Portal TecJobs</h1>
-      <p>ESCOLHA UM TIPO DE VAGA</p>
+      <p>ESCOLHA SEU TIPO DE VAGA</p>
+      <div class="linha"></div>
     </div>
+
     <div class="filtro">
-      <a [routerLink]="['/pesquisa', 'back']" class="link">
-        <img [src]="computerImg">
-        <span>Back-end</span>
-      </a>
-      <a [routerLink]="['/pesquisa', 'front']" class="link">
-        <img [src]="computerImg">
-        <span>Front-end</span>
-      </a>
-      <a [routerLink]="['/pesquisa', 'suporte']" class="link">
-        <img [src]="computerImg">
-        <span>Outros</span>
-      </a>
+      <div class="opcao">
+        <a [routerLink]="['/pesquisa', 'back']">
+          <img [src]="computerImg">
+          <span>Back-end</span>
+        </a>
+      </div>
+
+      <div class="opcao">
+        <a [routerLink]="['/pesquisa', 'front']">
+          <img [src]="computerImg">
+          <span>Front-end</span>
+        </a>
+      </div>
+
+      <div class="opcao">
+        <a [routerLink]="['/pesquisa', 'outros']">
+          <img [src]="computerImg">
+          <span>Suporte</span>
+        </a>
+      </div>
+
     </div>
+    <img src="../../../../assets/img/quadriculado.png" alt="">
   </div>
 </main>

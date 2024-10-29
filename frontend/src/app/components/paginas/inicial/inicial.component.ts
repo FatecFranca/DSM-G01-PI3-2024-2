@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class InicialComponent {
   
   readonly humana : string = "../../../assets/img/Humaaans.png"
+  readonly tecjobs : string = "../../../../assets/img/TECJOBS.png"
+  readonly chao : string = "../../../../assets/img/NoiseInicial.png"
+  
 }

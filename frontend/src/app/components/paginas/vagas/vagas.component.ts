@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './vagas.component.scss'
 })
 export class VagasComponent {
-  readonly computerImg: string = "../../../assets/img/computador .png";
+  readonly computerImg: string = "../../../assets/img/laptop.png";
 
 }
