@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krona+One&display=swap');
+
+main {
+  background: linear-gradient(180deg, #191D27 0%, #000000 100%);
+  height: 100vh;
+  position: relative; // Adicionei esta linha
+
+  app-navbar {
+    position: relative; // Adiciona posição relativa
+    z-index: 3; // Deve ser maior que a container
+  }
+
+
+  .teto {
+    width: 80%;
+    z-index: 1; // Ajustei o z-index
+    margin-top: 4%;
+    position: absolute; // Adicionei posição absoluta
+    top: 0; // Ajuste conforme necessário
+  }
+
+  h1 {
+    font-size: 100px;
+    font-family: Krona One;
+    background: linear-gradient(180deg, #FFFFFF 0%, #B8DBE9 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+
+  .container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+  
+    div {
+      background: linear-gradient(90.6deg, #00CCE8 0.52%, #029BAF 106.73%);
+      width: 1000px;
+      max-height: 300px;
+      border-radius: 15px;
+      margin: 5px 0;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  
+      span {
+        text-align: left; // Alinha o texto à esquerda
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+  
+}

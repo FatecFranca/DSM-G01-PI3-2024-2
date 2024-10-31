@@ -1,0 +1,17 @@
+<main>
+  <div class="back">
+    <div class="pesquisa">
+      <h1>Encontre sua vaga de emprego</h1>
+      <div class="search-container">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit"><img [src]="lupaImg" alt="Pesquisar">Buscar</button>
+      </div>
+    </div>
+    <div class="image">
+      <img [src]="meninoImg" alt="">
+    </div>
+  </div>
+  <div>
+    <app-card-vaga [vagas]="vagas"></app-card-vaga>
+  </div>
+</main>

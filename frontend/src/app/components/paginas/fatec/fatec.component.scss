@@ -1,0 +1,45 @@
+main {
+  display: flex;
+
+  .estudantes {
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  div {
+    h1 {
+      font-size: 40px;
+    }
+
+    .borda {
+      border-bottom: 2px solid black;
+      font-size: 20px;
+      padding: 15px;
+    }
+
+    h6 {
+      font-size: 20px;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+
+  background-color: black;
+
+  span {
+    font-size: 25px;
+  }
+
+  img {
+    width: 2%;
+    height: 2%;
+  }
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Strike&display=swap');
+
+.espaco {
+  padding-left: 20px;
+  padding-right: 90px;
+  font-size: 20px;
+  background-color: #D9D9D9;
+  border-bottom: 5px solid #01606D;
+  height: 60px;
+
+  span{
+    font-size: 40px;
+    font-family: Protest Strike;
+    background: linear-gradient(180deg, #929499 0%, #000000 100%);
+    -webkit-background-clip: text;
+    color: transparent; // Torna o texto transparente para mostrar o fundo
+  }
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #646161; 
+}
+
+.navbar-nav .nav-link {
+  color: #000000; 
+  font-family: Protest Strike;
+}
+
+
+.color{
+  color: rgb(190, 183, 183);
+}

@@ -1,0 +1,18 @@
+<main>
+  <app-navbar></app-navbar>
+  <div class="container">
+    <h1>Login</h1>
+    <h6>Área destinada a professores e coordenadores da Fatec Franca</h6>
+    <form (ngSubmit)="validaLogin()">
+      <label for="username">Username:</label>
+      <input type="text" id="username" [(ngModel)]="user.username" name="username" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" [(ngModel)]="user.password" name="password" required>
+      
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  
+  <img [src]="cyber">
+</main>

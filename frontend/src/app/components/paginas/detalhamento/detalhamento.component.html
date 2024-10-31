@@ -1,0 +1,26 @@
+<main *ngIf="vaga">
+  <div class="container">
+    <div class="titulo">
+      <h1>{{vaga.titulo}}</h1>
+      <h6>Local: {{vaga.localizacao}}</h6>
+      <h6>Salário: {{vaga.salario}}</h6>
+    </div>
+
+    <div class="desc">
+      <div class="caixa1">
+        <h1>Sobre a vaga</h1>
+        <h4>Descrição:</h4>
+        <h5>{{vaga.descricao}}</h5>
+        <h4>Requisitos: </h4>
+        <h5>{{vaga.requisitos}}</h5>
+        <h6>Data de publicação: {{vaga.data_publicacao | date:'dd/MM/yyyy'}}</h6>
+      </div>
+
+      <div class="caixa2">
+        <a [href]="vaga.link" target="_blank">
+          <button>Candidatar-se</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</main>
