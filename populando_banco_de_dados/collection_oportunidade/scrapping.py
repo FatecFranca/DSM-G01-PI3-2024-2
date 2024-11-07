@@ -1,8 +1,8 @@
-def webscrapping_linkedin():
-    import requests
-    from bs4 import BeautifulSoup
-    import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
 
+def webscrapping_linkedin():
     url = 'https://www.linkedin.com/jobs/search?keywords=desenvolvedor&location=Brazil&f_WT=2&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true'
     response = requests.get(url)
 
@@ -40,3 +40,4 @@ def webscrapping_linkedin():
         
     df_jobs = pd.DataFrame(jobs)
     return df_jobs
+
