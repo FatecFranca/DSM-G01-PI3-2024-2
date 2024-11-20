@@ -45,4 +45,7 @@ app.use('/oportunidade', oportunidadeRouter)
 import usuarioRouter from './routes/usuario.js'
 app.use('/usuario', usuarioRouter)
 
+import tipoRouter from './routes/tipo.js'
+app.use('/tipo', tipoRouter)
+
 export default app
