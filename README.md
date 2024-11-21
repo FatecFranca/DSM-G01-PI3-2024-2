@@ -8,8 +8,8 @@ Repositório do trabalho de PI dos estudantes do 3° período do curso de Desenv
 
 # Responsáveis pelo projeto:
 <ul>
-  <li>UX Design | Prototipação | Portifólio IHC <a href="https://github.com/xArthurFerreira">Arthur Rodrigues Ferreira</a></li>
-  <li>Front-End | Design | Documentação <a href="https://github.com/DevSamuel06">Samuel Ribeiro Filho</a></li>
-  <li>Data Engineer | DataOps | Contrução do Banco de Dados | Back-End <a href="https://github.com/victorsoaresho">Victor Hugo Ferreira Soares</a></li>
-  <li>Back-End | Estruturação do Banco de Dados | <a href="https://github.com/Akcio23">Pedro Afonso Acácio da Silva</a></li>
+  <li>UX Design | Prototipação | Portifólio IHC: <a href="https://github.com/xArthurFerreira">Arthur Rodrigues Ferreira</a></li>
+  <li>Front-End | Design | Documentação: <a href="https://github.com/DevSamuel06">Samuel Ribeiro Filho</a></li>
+  <li>Data Engineer | DataOps | Contrução do Banco de Dados | Back-End: <a href="https://github.com/victorsoaresho">Victor Hugo Ferreira Soares</a></li>
+  <li>Back-End | Estruturação do Banco de Dados: <a href="https://github.com/Akcio23">Pedro Afonso Acácio da Silva</a></li>
 </ul>
